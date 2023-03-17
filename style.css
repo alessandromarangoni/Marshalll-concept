@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+    font-size: 22px;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* flex */
+.display-flex{display: flex;}
+.flex-column{flex-direction: column;}
+.justify-space-bt{justify-content: space-between;}
+.justify-end{justify-content: flex-end;}
+.justify-space-around{justify-content: space-around;}
+.flex-wrap{flex-wrap: wrap;}
+.align-center{align-items: center;}
+/* altezze vh */
+.vh100{height: 100vh;}
+.fa-question{font-size: 17px;}
+/* larghezze */
+.w100{width: 100%;}
+.w50{width: 50%;}
+.w80{width: 80%;}
+/* margini */
+.margin-0-auto{margin: 0 auto;}
+/* padding */
+.padding-top2{padding-top: 2rem;}
+.padding-bottom2{padding-bottom: 2rem;}
+
+.relative{position: relative;}
+/* colori */
+.bg-grey{background-color: #161616;}
+.bg-grey-lighter{background-color: #262626;}
+nav{
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav img{
+    width: 150px;
+    margin-left: 2rem;
+}
+nav :nth-child(2) a{
+    color: white;
+    text-decoration: none;
+}
+#link-nav{
+    width: 40%;
+}
+#link-nav a:hover{
+    transform: scale(1.1);
+    opacity: .8;
+}
+i:hover{
+    transform: scale(1.1);
+    opacity: .8;   
+}
+#fa-nav{
+    font-size: 18px;
+    color: white;
+}
+#fa-nav .fa-bag-shopping{
+    margin: 0 1rem;
+}
+
+#fa-nav .fa-question{
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 0.8px 4.5px;
+    margin-right: 1rem;
+}
+
+#fa-nav select{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    font-size: 16px;
+    margin-right: 2rem;
+}
+
+header{
+    background-image: url(../img/background\ header.jpeg);
+    background-size: cover;
+}
+
+header button{
+    padding:.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+}
+.info{
+    padding:.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 999;
+}
+.info .fa-question{
+    margin-right: .2rem;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.2rem .3rem;
+    border-radius: 50%;
+    font-size: 15px;
+}
+#jumbotron{
+    padding: 35vh 2em;
+    color: white;
+}
+#jumbotron h1{
+    font-size: 100px;
+    width: 40%;
+}
+
+#jumbotron :nth-child(2){
+    padding:1em 0;
+}
+
+.section-1-card{
+    width: 30%;
+    color: white;
+}
+.section-1-card h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 1em 0;
+}
+.section-1-card span{
+    text-align: center;
+}
+
+.section-1-card img{
+    border-radius: 20px;
+    border: 0px solid white;
+    -webkit-box-shadow: 2px 2px 44px 1px rgba(126,126,126,0.62); 
+box-shadow: 2px 2px 44px 1px rgba(126,126,126,0.62);
+}
+
+.section-2{
+    background-image: url(../img/pexels-nicholas-githiri-1350419.jpg);
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 50VH;
+    padding-bottom: 70vh;
+    color: white;
+    text-align: center;
+    filter: sepia(.5);
+    border: 2px solid white;
+}
+#box{
+    border: 2px solid white;
+    padding-bottom: 0!important;
+}
+
+.section-2 button{
+    padding: .2rem 1rem;
+    font-size: 10px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.section-2 h2{
+    font-size: 50px;
+}
+
+.section-2 span{
+    padding: 1rem 0;
+    font-size: 16px;
+}
+.section-3{
+    padding-top: 2rem;
+}
+
+.section-3 img:first-child{
+    width: 100% ;
+    filter: grayscale(.9) sepia(.5);
+    border-radius: 10px;
+}
+.absolute-img{
+position: absolute;
+transform: scale(.4);
+left:0;
+top:21%;
+filter: saturate(1);
+padding: 1rem;
+border-bottom: 10px solid white;
+border-radius: 30px;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 15px 6px -2px rgba(0,0,0,0.46); 
+box-shadow: 0px 10px 13px -7px #000000, 0px 15px 6px -2px rgba(0,0,0,0.46);
+-webkit-box-shadow: 0px 10px 13px -7px #000000, inset 0px -23px 6px -2px rgba(255,255,255,0.46); 
+box-shadow: 0px 10px 13px -7px #000000, inset 0px -23px 6px -2px rgba(255,255,255,0.46);
+}
+.section-4 div{
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+}
+.section-4 h2{
+    font-size: 50px;
+    padding-top:2rem;
+}
+.section-4 span{
+    padding: 1rem 0;
+}
+.section-4 button{
+    width:50%;
+    align-self: center;
+    background-color: #16161600;
+    color: white;
+    border: 3px solid white;
+    padding: .5rem 0;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-box-shadow: inset 2px 2px 44px 1px rgba(255,255,255,0.6); 
+box-shadow: inset 2px 2px 44px 1px rgba(255,255,255,0.6);
+}
+button:active{
+    transform: scale(1);
+    transition: .1s;
+}
+.section-5{
+    color: white;
+}
+.section-5 div{
+    padding: 2rem 0!important;
+}
+.section-5 button{
+    padding: .5rem 1rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.section-5 span{
+    max-width: 20%;
+}
+input{
+    max-width:300px;
+    background-color:none;
+    font-style: none;
+    border-radius: 30px;
+    flex-grow: .5;
+    height: 2rem;
+    align-self: center;
+}
+
+footer{
+    padding-top: 2rem;
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.453);
+    text-decoration:none;
+}
+footer a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+}
+
+footer li{
+    list-style: none;
+}
+footer h3{
+    font-size: 35px;
+    padding-bottom: .5rem;
+}
+.login-footer h3{
+    font-size: 35px;
+}
+.login-footer button{
+    margin: .5em 0;
+    width: 80%;
+    align-self: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+}
+.footer-sec-2 span{
+    font-size: 16px;
+    padding:1rem 0;
+    color: rgba(255, 255, 255, 0.709);
+}
+.footer-sec-2 h3{
+    font-size: 35px;
+}
+
+.footer-sec-2{
+    padding-top: 2rem;
+    text-align: center;
+}
+.payment img{
+    margin: .5rem;
+    transform: scale(1.2);
+}
+.section-3-footer{
+    padding:3rem 0;
+    gap: 3;
+}
+.section-3-footer img{
+    width: 200px;
+    transform: translate(-25%, 0);
+}
+
+.section-3-footer i{
+    font-size: 35px;
+    padding-left: 1rem;
+}
+
+.section-3-footer span{
+    text-align: center;
+}
